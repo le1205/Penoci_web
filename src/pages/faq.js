@@ -23,7 +23,6 @@ export default function FaqsPage() {
       <FaqsHero />
 
       <Container sx={{ pt: 5, pb: 10, position: 'relative' }}>
-        {/* <FaqsCategory /> */}
         <Grid container columnSpacing={0} alignItems="center" sx={{ height: 1 }}>
           <Grid item xs={12} md={4}>
             <Typography variant="h3" sx={{ mb: 5 }}>
@@ -36,17 +35,9 @@ export default function FaqsPage() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={8}>
-            {/* <Box
-            gap={10}
-            display="grid"
-            gridTemplateColumns={{
-              xs: 'repeat(1, 1fr)',
-              md: 'repeat(2, 1fr)',
-            }}
-          > */}
+          
             <FaqsList />
           </Grid>
-          {/* </Box> */}
         </Grid>
       </Container>
     </>
