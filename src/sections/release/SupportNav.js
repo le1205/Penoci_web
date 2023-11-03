@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import { Box, Stack, Typography, CardActionArea, useMediaQuery } from '@mui/material';
 // components
 import Iconify from '../../components/iconify';
-import { PATH_PAGE, PATH_DASHBOARD } from '../../routes/paths';
+import { paths } from '../../routes/paths';
 // ----------------------------------------------------------------------
 
 const StyledContactButton = styled((props) => (
@@ -24,16 +24,16 @@ export default function SupportNav() {
   const navigate = useNavigate();
   const Contact = () => {
     if (window.location.href.includes('dashboard')) {
-      navigate(PATH_DASHBOARD.general.contactus);
+      navigate(paths.general.contactus);
     } else {
-      navigate(PATH_PAGE.contact);
+      navigate(paths.contact);
     }
   };
   const RFED = () => {
     if (window.location.href.includes('dashboard')) {
-      navigate(PATH_DASHBOARD.general.edfences);
+      navigate(paths.general.edfences);
     } else {
-      navigate(PATH_PAGE.edfence);
+      navigate(paths.edfence);
     }
   };
   const isMobile = useMediaQuery('(max-width:900px)');

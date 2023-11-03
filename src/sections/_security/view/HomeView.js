@@ -6,7 +6,6 @@ import ScrollProgress from 'src/components/scroll-progress';
 import PricingHome from '../../pricing/home';
 import {
   HomeHero,
-  HomeFAQs,
   HomeNewStart,
   Prevent,
   // HomeQr,

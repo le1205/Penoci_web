@@ -29,6 +29,3 @@ export default function SupportHero() {
     </StyledRoot>
   );
 }
-
-Free;
-Projects;

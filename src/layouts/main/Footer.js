@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 // @mui
 import { Box, Grid, Link, Stack, Divider, Container, Typography, IconButton } from '@mui/material';
 // routes
-import { PATH_PAGE } from '../../routes/paths';
+import { paths } from '../../routes/paths';
 // _mock
 import { _socials } from '../../_mock/arrays';
 // components
