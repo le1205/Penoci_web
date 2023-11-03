@@ -23,7 +23,6 @@ export default function FaqsPage() {
       <FaqsHero />
 
       <Container sx={{ pt: 5, pb: 10, position: 'relative' }}>
-        {/* <FaqsCategory /> */}
         <Grid container columnSpacing={0} alignItems="center" sx={{ height: 1 }}>
           <Grid item xs={12} md={4}>
             <Typography variant="h3" sx={{ mb: 5 }}>
